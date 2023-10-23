@@ -43,9 +43,10 @@ class KEY_GEN():
         
 
 if __name__ == '__main__':
-    print(len(KEY_GEN.acceptable_characters))
-    print(len(KEY_GEN.first_62_prime))
+    # print(len(KEY_GEN.acceptable_characters))
+    # print(len(KEY_GEN.first_62_prime))
     gene = KEY_GEN("dog86tt3")
+    print(gene.s)
     print(gene.key_value)
     print(gene.show_key())
     
